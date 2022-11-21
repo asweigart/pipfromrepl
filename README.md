@@ -115,11 +115,3 @@ You can use this `pip()` function to specify a version to upgrade/downgrade to:
     Successfully built pymsgbox
     Installing collected packages: pymsgbox
     Successfully installed pymsgbox-1.0.8
-
-For macOS and Linux users who need to run pip3 instead of pip, there are analogous pip3 functions:
-
-* `pipfromrepl.install3()`
-* `pipfromrepl.user_install3()`
-* `pipfromrepl.list3()`
-* `pipfromrepl.uninstall3()`
-* `pipfromrepl.pip3()`
