@@ -12,8 +12,16 @@ def user_install(module_name):
     subprocess.run([sys.executable, '-m', 'pip', 'install', '--user', module_name])
 
 
+def user_upgrade(module_name):
+    subprocess.run([sys.executable, '-m', 'pip', 'install', '--user', "--upgrade", module_name])
+
+
 def install(module_name):
     subprocess.run([sys.executable, '-m', 'pip', 'install', module_name])
+
+
+def upgrade(module_name):
+    subprocess.run([sys.executable, '-m', 'pip', 'install', "--upgrade", module_name])
 
 
 def uninstall(module_name, confirm=False):
@@ -48,8 +56,16 @@ def user_install3(module_name):
     subprocess.run([sys.executable, '-m', 'pip3', 'install', '--user', module_name])
 
 
+def user_upgrade3(module_name):
+    subprocess.run([sys.executable, '-m', 'pip3', 'install', '--user', "--upgrade", module_name])
+
+
 def install3(module_name):
     subprocess.run([sys.executable, '-m', 'pip3', 'install', module_name])
+
+
+def upgrade3(module_name):
+    subprocess.run([sys.executable, '-m', 'pip3', 'install', "--upgrade", module_name])
 
 
 def uninstall3(module_name, confirm=False):
