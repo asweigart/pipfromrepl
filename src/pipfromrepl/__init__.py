@@ -12,8 +12,16 @@ def user_install(module_name):
     subprocess.run([sys.executable, '-m', 'pip', 'install', '--user', module_name])
 
 
+def user_upgrade(module_name):
+    subprocess.run([sys.executable, '-m', 'pip', 'install', '--user', "--upgrade", module_name])
+
+
 def install(module_name):
     subprocess.run([sys.executable, '-m', 'pip', 'install', module_name])
+
+
+def upgrade(module_name):
+    subprocess.run([sys.executable, '-m', 'pip', 'install', "--upgrade", module_name])
 
 
 def uninstall(module_name, confirm=False):
@@ -42,4 +50,3 @@ def pipenv(*args):
         args = tuple(args[0].split())
     subprocess.run([sys.executable, '-m', 'pipenv', *args])
 """
-
