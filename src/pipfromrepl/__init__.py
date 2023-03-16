@@ -3,7 +3,7 @@ By Al Sweigart al@inventwithpython.com
 
 Run pip to install packages from the Python interactive shell aka REPL."""
 
-__version__ = '0.1.4'
+__version__ = '0.1.5'
 
 import sys, subprocess
 

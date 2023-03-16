@@ -3,7 +3,7 @@ Pip From REPL
 
 Run pip to install packages from the Python interactive shell aka REPL.
 
-If you are leading a programming workshop and want to avoid headaches of running pip from students' machines (with all their possible )
+If you are leading a programming workshop and want to avoid headaches of running pip from students' machines (with all their possible environment configurations), pipfromrepl provides a single set of instructions to quickly get packages correctly installed.
 
 The benefit of pipfromrepl is that the user doesn't need to know how to navigate the command-line or have their PATH environment variables set up. If multiple versions of Python are installed, pipfromrepl uses the pip module associated with the currently running interactive shell. The goal of pipfromrepl is to reduce the number of steps that students and beginners need to take to get Python packages installed on their computer.
 
